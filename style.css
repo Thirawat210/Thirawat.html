@@ -467,6 +467,7 @@ body {
     font-weight: var(--fw-700);
     padding-inline: 12px;
     border-radius: var(--radius-3);
+    color: white;
 }
 
 .shop .title-wrapper {
@@ -534,6 +535,7 @@ body {
 
 .card-content .card-rating .rating-text {
     font-size: 18px;
+    Color: black;
 }
 
 .shop-card .del {
@@ -543,9 +545,12 @@ body {
 }
 
 .shop-card .price .span {
-    color: rgb(20, 211, 33);
+    color: rgb(29, 150, 37);
     font-weight: var(--fw-700);
-    font-size: 18px;
+}
+
+.card-rating .rating-wrapper{
+    color: red;
 }
 
 .shop-card .card-title {
