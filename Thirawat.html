@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeVision</title>
+    <link rel="icon" href="logol.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="alert">
+            <div class="container">
+                <p class="alert-text">Welcome to Your Perfect Vision</p>
+            </div>
+        </div>
+
+        <div class="header-top" data-header>
+            <div class="container">
+                <button class="nav-open-btn" aria-label="open Order" data-nav-toggler>
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>   
+
+                <div class="input-wrapper">
+                    <input type="search" class="search-field" name="search" placeholder="Search">
+                    <button class="search-submit" aria-label="true">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                </div>
+
+                <a href="#" class="logo">
+                    <img src="image/logol.png" width="320" height="320">
+                </a>
+
+                <div class="header-action">
+                    <button class="header-action-btn" aria-label="User">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </button>
+
+                    <button class="header-action-btn" aria-label="favorite item">
+                        <ion-icon name="star"></ion-icon>
+                        <span class="btn-badge">99</span>
+                    </button>
+
+                    <button class="header-action-btn" aria-label="cart item">
+                        <data class="btn-text" value="">0.00.-</data>
+                        <ion-icon name="bag-handle-outline"></ion-icon>
+                        <span class="btn-badge">99</span>
+                    </button>
+
+                </div>
+
+                    <nav class="navbar">
+                        <ul class="navbar-list">
+                            <li>
+                                <a href="#" class="navbar-link has-after">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-link has-after">Collection</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-link has-after">Shop</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-link has-after">Offer</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-link has-after">Contact</a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="sidebar">
+        <div class="mobile-navbar" data-navbar>
+
+            <div class="wrapper">
+                <a href="#" class="logo">
+                    <img src="image/logol.png" width="150" height="150">
+                </a>
+
+                <button class="nav-class-btn" aria-label="close-menu" data-nav-toggler>
+                    <ion-icon name="close-outline" ></ion-icon>
+                </button>
+            </div>
+
+            <ul class="navbar-list">
+                <li>
+                    <a href="#" class="navbar-link" data-nav-link>Home</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar-link" data-nav-link>Collection</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar-link" data-nav-link>Shop</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar-link" data-nav-link>Offer</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar-link" data-nav-link>Contact</a>
+                </li>
+
+            </ul>
+            
+        </div>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+
+    <main>
+        <article>
+
+            <section class="section hero" id="home" aria-label="hero" data-section>
+                <div class="container">
+                    <ul class="has-scrollbar">
+                        <li class="scrollbar-item">
+                            <div class="hero-card has-bg-image" style="background-image: url(image/banner.png);">
+                                <div class="card-content">
+
+                                    <h1 class="h1 hero-title">
+                                        Comfortable weight 
+                                    </h1>
+
+                                    <p class="hero-text">
+                                        Our glasses are grade A quality.
+                                    </p>
+
+                                    <p class="price">Starting at 300.-</p>
+
+                                    <a href="#" class="btn btn-primary">Shop now</a>
+                                </div>
+                            </div>
+                        </li>
+                         
+                        <li class="scrollbar-item">
+                            <div class="hero-card has-bg-image" style="background-image: url(image/banner2.png);">
+                                <div class="card-content">
+
+                                    <h1 class="hero-title">
+                                        "Vision Redefined"
+                                    </h1>
+                                    
+                                    <p class="hero-text">
+                                        "Shade Your Eyes, Elevate Your Style"
+                                    </p>
+
+                                    <p class="price">Starting at 300.-</p>
+
+                                    <a href="#" class="btn btn-primary">Shop now</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="hero-card has-bg-image" style="background-image: url(image/banner3.png);">
+                                <div class="card-content">
+
+                                    <h1 class="hero-title">
+                                        Clear Vision, Bold Statement
+                                    </h1>
+
+                                    <p class="hero-text">
+                                        "Frame Your World"
+                                    </p>
+
+                                    <p class="price">Starting at 300.-</p>
+
+                                    <a href="#" class="btn btn-primary">Shop now</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section collection" id="collection" aria-label="collection" data-section>
+                <div class="container">
+                    <ul class="collection-list">
+                        <li>
+                            <div class="collection-card has-before hover:shine">
+                                <div class="full-page">
+                                    <h2 class="h2 card-title">Sunglasses Built for Summer</h2>
+
+                                    <p class="card-text">Starting at 300.-</p>
+
+                                    <a href="#" class="btn-link">
+                                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                                        <span class="span">Shop now</span>
+                                        <ion-icon name="chevron-back-outline"></ion-icon>
+                                    </a>
+                                    <div class="has-bg-image" style="background-image: url(image/8.png);"></div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collection-card has-before hover:shine">
+                                <div class="full-page">
+                                    <h2 class="h2 card-title">Recommended products</h2>
+
+                                    <p class="card-text">Starting at 300.-</p>
+
+                                    <a href="#" class="btn-link">
+                                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                                        <span class="span">Shop now</span>
+                                        <ion-icon name="chevron-back-outline"></ion-icon>
+                                    </a>
+                                    <div class="has-bg-image" style="background-image: url(image/7.png);"></div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collection-card has-before hover:shine">
+                                <div class="full-page">
+                                    <h2 class="h2 card-title">Recommended products</h2>
+
+                                    <p class="card-text">Starting at 300.-</p>
+
+                                    <a href="#" class="btn-link">
+                                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                                        <span class="span">Shop now</span>
+                                        <ion-icon name="chevron-back-outline"></ion-icon>
+                                    </a>
+                                    <div class="has-bg-image" style="background-image: url(image/6.png);"></div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="section shop" id="shop" aria-label="shop" data-section>
+                <div class="container">
+                    <div class="title-wrapper">
+                        <h2 class="h2 section-title">Popular products</h2>
+
+                        <a href="#" class="btn-link">
+                            <span class="span">All products</span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </a>    
+                    </div>
+
+                    <ul class="has-scrollbar">
+                        <li class="scrollbar-item">
+                            <div class="shop-card"> 
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="image/1.png" class="img-cover" width="540" height="720" loading="lazy">
+                                        <span class="badge" aria-label="20% off">-15%</span>
+                                        <div class="card-actions">
+                                            <button class="action-btn" aria-label="add to cart">
+                                                <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                            </button>
+                                            <button class="action-btn" aria-label="add to wishlist">
+                                                <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            </button>
+                                            <button class="action-btn" aria-label="Compare">
+                                                <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                                            </button>
+                                        </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="price">
+                                        <del class="del">1200.-</del>
+                                        <span class="span">990.-</span>
+                                    </div>
+                                    <h3>
+                                        <a href="#" class="card-title">Fashion glasses Black Viper</a>
+                                    </h3>
+                                    <div class="card-rating">
+                                        <div class="rating-wrapper" aria-label="5 star rating">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                        </div>
+                                        <p class="rating-text">2,485 Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="image/2.png" class="img-cover" width="540" height="720" loading="lazy">
+                                        <span class="badge" aria-label="20% off">-20%</span>
+
+                                        <div class="card-actions">
+                                            <button class="action-btn" aria-label="add to cart">
+                                                <ion-icon name="bag-handle-outline"></ion-icon>
+                                            </button>
+
+                                            <button class="action-btn" aria-label="add to wishlist">
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </button>
+
+                                            <button class="action-btn" aria-label="Compare">
+                                                <ion-icon name="repeat-outline"></ion-icon>
+                                            </button>
+                                        </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="price">
+                                        <del class="del">1599.-</del>
+                                        <span class="span">1299.-</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">Orange sunglasses, black frame</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+                                        <div class="rating-wrapper" aria-label="5 star rating">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                        </div>
+                                        <p class="rating-text">3285 Reviews</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="image/3.png" class="img-cover" width="540" height="720" loading="lazy">
+                                        <span class="badge" aria-label="20% off">-10%</span>
+
+                                        <div class="card-actions">
+                                            <button class="action-btn" aria-label="add to cart">
+                                                <ion-icon name="bag-handle-outline"></ion-icon>
+                                            </button>
+
+                                            <button class="action-btn" aria-label="add to wishlist">
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </button>
+
+                                            <button class="action-btn" aria-label="Compare">
+                                                <ion-icon name="repeat-outline"></ion-icon>
+                                            </button>
+                                        </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="price">
+                                        <del class="del">599.-</del>
+                                        <span class="span">499.-</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">Stylish photography glasses</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+                                        <div class="rating-wrapper" aria-label="5 star rating">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                        </div>
+                                        <p class="rating-text">2753 Reviews</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="image/4.png" class="img-cover" width="540" height="720" loading="lazy">
+                                        <span class="badge" aria-label="20% off">-7%</span>
+
+                                        <div class="card-actions">
+                                            <button class="action-btn" aria-label="add to cart">
+                                                <ion-icon name="bag-handle-outline"></ion-icon>
+                                            </button>
+
+                                            <button class="action-btn" aria-label="add to wishlist">
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </button>
+
+                                            <button class="action-btn" aria-label="Compare">
+                                                <ion-icon name="repeat-outline"></ion-icon>
+                                            </button>
+                                        </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="price">
+                                        <del class="del">2199.-</del>
+                                        <span class="span">2000.-</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">Glasses to wear when driving</a>
+                                    </h3>
+                                    
+                                    <div class="card-rating">
+                                        <div class="rating-wrapper" aria-label="5 star rating">
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                            <ion-icon name="star-outline"></ion-icon>
+                                        </div>
+                                        <p class="rating-text">1529 Reviews</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="shop-card">
+                                <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+                                    <img src="image/5.png" class="img-cover" width="540" height="720" loading="lazy">
+                                        <span class="badge" aria-label="20% off">-12%</span>
+
+                                        <div class="card-actions">
+                                            <button class="action-btn" aria-label="add to cart">
+                                                <ion-icon name="bag-handle-outline"></ion-icon>
+                                            </button>
+
+                                            <button class="action-btn" aria-label="add to wishlist">
+                                                <ion-icon name="star-outline"></ion-icon>
+                                            </button>
+
+                                            <button class="action-btn" aria-label="Compare">
+                                                <ion-icon name="repeat-outline"></ion-icon>
+                                            </button>
+                                        </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="price">
+                                        <del class="del">1259.-</del>
+                                        <span class="span">989.-</span>
+                                    </div>
+
+                                    <h3>
+                                        <a href="#" class="card-title">Glasses for active people</a>
+                                    </h3>
+
+                                    <div class="card-rating">
+                                        <div class="rating-wrapper" aria-label="5 star rating">
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                                        </div>
+                                        <p class="rating-text">3619 Reviews</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+          
+                    </ul>
+
+                </div>
+
+
+            </section>
+        </article>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">Glasses</a></li>
+                        <li><a href="#">Fashion Glasses</a></li>
+                        <li><a href="#">SunGlasses</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    
+
+<script src="script.js" defer></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
