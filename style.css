@@ -240,7 +240,7 @@ body {
     text-transform: uppercase;
     font-weight: var(--fw-600);
     letter-spacing: 1px;
-    padding-block: 5px;
+    padding-block: 5px; 
     transition: var(--transition-1);
 }
 
@@ -312,7 +312,7 @@ body {
     background-color: var(--light-gray);
     padding: 100px 15px;
     padding-left: 50px;
-    background-position: 40%;
+    background-position: 40%;   
 }
 
 .hero-card .card-content {
@@ -451,7 +451,7 @@ body {
 
 .img-holder {
     aspect-ratio: var(--width) / var(--height);
-    background-color: var(--light-gray);    
+    background-color: var(--light-gray);
 }
 
 .img-cover {
@@ -476,7 +476,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 18px;
-    margin-block-end: 50px;
+    margin-block-end: 50px; 
 }
 
 .shop .btn-link:is(:hover , focus) {color: var(--hoockers-green);}
@@ -611,7 +611,7 @@ body {
         outline: none;
         transition: var(--transition-1);
     }   
-
+    
     .search.field::placeholder {color: var(--black);}
 
     .search.field:focus {border-color: var(--black);}
@@ -624,7 +624,7 @@ body {
         right: 15px;
         transform: translateY(-50%);
         font-size: 22px;
-    }
+    }   
 
     .header .search-submit ion-icon { --ionicon-stroke-width: 40px;}
 
@@ -645,14 +645,14 @@ body {
         background-color: var(--black);
         color: var(--white);
         font-size: var(--fs-9);
-        min-width: 18px;
+        min-width: 18px;    
         height: 16px;
         line-height: 1.4;
-        border-radius: 20px;
+        border-radius: 20px;    
     }
 
     .header-action-btn:last-child {
-        display: flex;
+        display: flex;  
         align-items: center;
         gap: 10px;
     }
