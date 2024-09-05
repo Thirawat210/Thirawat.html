@@ -49,7 +49,7 @@ const headerSticky = function () {
     } else {
         header.classList.add("header-hide");
     }
-
+    
     lastScrolledPos = window.scrollY;   
 }
 

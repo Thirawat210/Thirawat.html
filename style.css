@@ -440,9 +440,12 @@ body {
     100% { transform: skewX(-25deg) translateX(250%);}
 }
 
+
+
 .btn-link {
-    color: white;
-    font-weight: var(--fw-600);
+    color: var(--black);
+    font-weight: var(--fw-700);
+    font-size: var(--fs-6);
     display: flex;
     align-items: center;
     gap: 3px;
