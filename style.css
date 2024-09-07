@@ -1,7 +1,7 @@
 :root{
     /*Color*/
     --hoockers-green_20: hsl(148, 20%, 38%, 0.2);
-    --pale-spring-bud: hsl(312, 77%, 76%);
+    --pale-spring-bud: hsl(0, 94%, 60%);
     --hoockers-green: hsl(148, 20%, 38%);
     --spanish-gray: hsl(0, 0%, 61%);
     --light-gray: hsl(0, 0%, 76%);
@@ -103,8 +103,8 @@ html {
 }
 
 body {
-    background-color: var(--white);
-    color: var(--gray-web);
+    background-color: rgb(226, 226, 226);
+    color: rgb(226, 226, 226);
     font-size: 1.6rem;
     font-weight: var(--fw-500);
     line-height: 1.6;
@@ -150,7 +150,7 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: var(--white);
+    background-color: rgb(226, 226, 226);
     padding-block: 26px;
     z-index: 4;
 }
@@ -202,7 +202,7 @@ body {
 .sidebar {z-index: 5;}
 
 .mobile-navbar {
-    background-color: var(--white);
+    background-color: rgb(226, 226, 226);
     position: fixed;
     gap: 0;
     left: 0;
@@ -276,8 +276,9 @@ body {
 .h3,
 .h2-large{
     color: var(--black);
-    font-weight: var(--fw-600);
-    line-height: 1.3;
+    font-weight: var(--fw-400);
+    line-height: 1.8;
+    font-size: var(--fw-800);
 }
 
 .h1 {
@@ -296,20 +297,21 @@ body {
     max-width: max-content;
     padding: 10px 30px;
     border-radius: var(--radius-3);
-    transition: var(--transition-1);
+    transition: var(--transition-1);    
 }
 
 .btn-primary {
     background-color: var(--black);
     color: var(--white);
+    
 }
 
-.btn-primary:is(:hover , :focus) {background-color: var(--hoockers-green);}
+.btn-primary:is(:hover , :focus) {background-color: red;}
 
 .hero {padding-block-start: 0;}
 
 .hero-card {
-    background-color: var(--light-gray);
+    background-color: rgb(226, 226, 226);
     padding: 100px 15px;
     padding-left: 50px;
     background-position: 40%;   
@@ -376,7 +378,7 @@ body {
 }
 
 .collection-card {
-    background-color: var(--light-gray);
+    background-color: rgb(245, 240, 240);
     min-height: 400px;
     padding: 40px;
     padding-block-end: 30px;
@@ -386,11 +388,13 @@ body {
 
 .collection-card .card-title {
     margin-block-end: 12px;
-    color: var(--white);
+    color: var(--black);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-3);
 }
 
 .collection-card .card-text {
-    color: var(--white);
+    color: var(--black);
     font-size: var(--fs-6);
     font-weight: var(--fw-600);
     margin-block-end: auto;
@@ -440,10 +444,8 @@ body {
     100% { transform: skewX(-25deg) translateX(250%);}
 }
 
-
-
 .btn-link {
-    color: var(--black);
+    color: black;
     font-weight: var(--fw-700);
     font-size: var(--fs-6);
     display: flex;
@@ -454,7 +456,7 @@ body {
 
 .img-holder {
     aspect-ratio: var(--width) / var(--height);
-    background-color: var(--light-gray);
+    background-color: rgb(245, 240, 240);
 }
 
 .img-cover {
@@ -470,7 +472,6 @@ body {
     font-weight: var(--fw-700);
     padding-inline: 12px;
     border-radius: var(--radius-3);
-    color: white;
 }
 
 .shop .title-wrapper {
@@ -482,7 +483,7 @@ body {
     margin-block-end: 50px; 
 }
 
-.shop .btn-link:is(:hover , focus) {color: var(--hoockers-green);}
+.shop .btn-link:is(:hover , focus) {color: var(--black);}
 
 .shop-card .card-banner {
     position: relative;
@@ -538,7 +539,7 @@ body {
 
 .card-content .card-rating .rating-text {
     font-size: 18px;
-    Color: black;
+    Color: black;   
 }
 
 .shop-card .del {
@@ -571,7 +572,7 @@ body {
 
 .shop-card .ratting-wrapper {
     gap: 2px;
-    color: var(--hoockers-green);
+    color: var(red);
     font-size: 15px;
 }
 
@@ -671,7 +672,7 @@ body {
         bottom: 0;
         left: 0;
         width: 100%;
-        background-color: var(--white);
+        background-color: var(rgb(245, 240, 240));
         padding-block: 18px;
         z-index: 4;
     }
@@ -693,10 +694,10 @@ body {
         left: 0;
         width: 100%;
         height: 3px;
-        background-color: black;
+        background-color:red;
         transition: var(--transition-1);
         transform: scaleX(0);
-        transform-origin: left;
+        transform-origin: center;
     }
 
     .navbar .navbar-link:is(:hover , :focus)::after {
