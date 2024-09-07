@@ -114,8 +114,8 @@ body {
 :focus-visible {outline-offset: 4px;}
 
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 5px;
+    width: 1px;
+    height: 8px;
 }
 
 ::-webkit-scrollbar-track {background-color: hsl(0, 0%, 78%)}
@@ -244,7 +244,7 @@ body {
     transition: var(--transition-1);
 }
 
-.mobile-navbar .navbar-link:is(:hover , :focus) {color: var(--hoockers-green);}
+.mobile-navbar .navbar-link:is(:hover , :focus) {color: red;}
 
 .overlay {
     background-color: transparent;
@@ -583,8 +583,8 @@ body {
 }
 
 @media (min-width: 1200px) {
-    .container {max-width: 100%}    
-    .scrollbar-item {min-width: calc(20% - 24px);}
+    .container {max-width: 100%;}    
+    .scrollbar-item {min-width: calc(22% - 34px);}
 
     .header .input-wrapper,
     .header-action-btn:not(:first-child),
@@ -685,8 +685,8 @@ body {
 
     .navbar .navbar-link {
         color: var(--black);
-        font-size: var(--fs-5);
-        font-weight: var(--fw-400);
+        font-size: var(--fs-4);
+        font-weight: var(--fw-500);
     }
 
     .navbar .navbar-link::after {
