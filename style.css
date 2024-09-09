@@ -103,8 +103,8 @@ html {
 }
 
 body {
-    background-color: rgb(226, 226, 226);
-    color: rgb(226, 226, 226);
+    background-color: rgb(241, 241, 241);
+    color: rgb(241, 241, 241);
     font-size: 1.6rem;
     font-weight: var(--fw-500);
     line-height: 1.6;
@@ -150,7 +150,7 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
     padding-block: 26px;
     z-index: 4;
 }
@@ -202,7 +202,7 @@ body {
 .sidebar {z-index: 5;}
 
 .mobile-navbar {
-    background-color: rgb(226, 226, 226);
+    background-color: white;
     position: fixed;
     gap: 0;
     left: 0;
@@ -213,6 +213,7 @@ body {
     transform: translateX(-100%);
     visibility: hidden;
     transition: 0.25s var(--cubic-in);
+    align-items: center;
 }
 
 .mobile-navbar.active {
@@ -311,14 +312,14 @@ body {
 .hero {padding-block-start: 0;}
 
 .hero-card {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(241, 241, 241);
     padding: 100px 15px;
     padding-left: 50px;
     background-position: 40%;   
 }
 
 .hero-card .card-content {
-    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .hero-text {
@@ -378,8 +379,8 @@ body {
 }
 
 .collection-card {
-    background-color: rgb(245, 240, 240);
-    min-height: 400px;
+    background-color: white;
+    min-height: 450px;
     padding: 40px;
     padding-block-end: 30px;
     display: flex;
@@ -662,8 +663,8 @@ body {
     }
 
     .header-action-btn .btn-text {
-        font-size: var(--fs-7);
-        font-weight: var(--fw-400);
+        font-size: var(--fs-6);
+        font-weight: var(--fw-500);
         margin-block-start: 3px;
     }
 
@@ -687,6 +688,7 @@ body {
         color: var(--black);
         font-size: var(--fs-4);
         font-weight: var(--fw-500);
+        bottom: 50px;
     }
 
     .navbar .navbar-link::after {

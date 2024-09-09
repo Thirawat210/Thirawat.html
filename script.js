@@ -29,7 +29,7 @@ const closeNavbar = function () {
 
 addEventOnElem(navbarLinks, "click", closeNavbar);
 
-const header = document.querySelector("[data-header");
+/*const header = document.querySelector("[data-header");*/
 
 const headerActive = function () {
     if(window.screenY > 150) {
