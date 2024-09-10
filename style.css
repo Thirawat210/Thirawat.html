@@ -151,13 +151,12 @@ body {
     left: 0;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    padding-block: 26px;
     z-index: 4;
 }
 
 .header-top.active {
     position: fixed;
-    top: -240px;
+    top: -320px;
     bottom: auto;
     box-shadow: var(--shadow-1);
     transform: translateY(100%);
@@ -204,6 +203,7 @@ body {
 .mobile-navbar {
     background-color: white;
     position: fixed;
+    top: 0;
     gap: 0;
     left: 0;
     bottom: 0;
@@ -659,7 +659,7 @@ body {
     .header-action-btn:last-child {
         display: flex;  
         align-items: center;
-        gap: 10px;
+        gap: 10px;  
     }
 
     .header-action-btn .btn-text {
@@ -673,7 +673,7 @@ body {
         bottom: 0;
         left: 0;
         width: 100%;
-        background-color: var(rgb(245, 240, 240));
+        background-color: white ;
         padding-block: 18px;
         z-index: 4;
     }
@@ -681,14 +681,13 @@ body {
     .navbar .navbar-list {
         display: flex;
         justify-content: center;
-        gap: 45px;
+        gap: 50px;
     }
 
     .navbar .navbar-link {
         color: var(--black);
-        font-size: var(--fs-4);
-        font-weight: var(--fw-500);
-        bottom: 50px;
+        font-size: var(--fs-7);
+        font-weight: var(--fw-600);
     }
 
     .navbar .navbar-link::after {
@@ -731,7 +730,7 @@ body {
         width: 480px;
     }
 
-    .hero-card { padding: 120px 100px;}
+    .hero-card { padding: 120px 100px;} 
 
     .hero-text {max-width: 40ch;}
 

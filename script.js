@@ -12,7 +12,7 @@ const addEventOnElem = function (elem , type , callback) {
 
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const navbar = document.querySelector("[data-navbar]");
-const navbarLinks= document.querySelectorAll("[data-nav-link]");
+const navbarLinks = document.querySelectorAll("[data-nav-link]");
 const overlay = document.querySelector("[data-overlay]");
 
 const toggleNavbar = function () {
@@ -29,10 +29,10 @@ const closeNavbar = function () {
 
 addEventOnElem(navbarLinks, "click", closeNavbar);
 
-/*const header = document.querySelector("[data-header");*/
+const header = document.querySelector("[data-header]");
 
 const headerActive = function () {
-    if(window.screenY > 150) {
+    if(window.scrollY > 150) {	
         header.classList.add("active");
     } else {
         header.classList.remove("active");
@@ -49,19 +49,19 @@ const headerSticky = function () {
     } else {
         header.classList.add("header-hide");
     }
-    
-    lastScrolledPos = window.scrollY;   
+
+    lastScrolledPos = window.scrollY
 }
 
 addEventOnElem(window, "scroll", headerSticky);
 
-const section = document.querySelectorAll("[data-section");
+const section = document.querySelectorAll("[data-section]");
 
 const scrollReveal = function () {
     for (let i = 0 ; i < section.length ; i++) {
         if(section[i].getBoundingClientRect().top < window.innerHeight / 2) {
             section[i].classList.add("active");
-        }else {
+        } else {
             section[i].classList.remove("active");
         }
     }
