@@ -484,7 +484,7 @@ body {
     margin-block-end: 50px; 
 }
 
-.shop .btn-link:is(:hover , focus) {color: red;}
+.shop .btn-link:is(:hover , :focus) {color: red;}
 
 .shop-card .card-banner {
     position: relative;
@@ -609,7 +609,7 @@ body {
     .search-field {
         width: 270;
         font-size: var(--fs-7);
-        border: 2px solid var(--hoockers-green_20);
+        border: 2px solid var(--black_70);
         border-radius: var(--radius-3);
         padding: 10px 20px;
         padding-inline-end: 60px;
